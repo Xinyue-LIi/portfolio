@@ -193,9 +193,7 @@ h3.italic-lighter{
 .section:nth-child(even){
     background-color: #eeeeee;
 }
-.section:nth-child(odd){
-    
-}
+
 .subcontent{
     display: flex;
 }
