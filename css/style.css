@@ -1,0 +1,515 @@
+.navbar{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+#header .active>a{
+    color:yellow;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+main{
+    padding-top: 30px;
+}
+#button{
+    
+    background-color: #fff;
+    color: black;
+    border-radius: 8px;
+    text-align: right;
+    font-family: 'Roboto', sans-serif;
+    border:none;
+    font-size: 16px;
+    height: 30px;
+    align-self: center;
+}
+
+.navbar-toggler{
+    color: rgba(255,255,255,1);
+}
+.header-container{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#footer{
+    position:fixed;
+    padding-bottom: 0;
+    bottom:35px;
+    left:0;
+    right:0;
+    height:30px;
+  
+    
+}
+
+.social-media ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+  
+}
+
+.social-media li{
+    flex-direction: row;
+}
+
+
+.inline-item img{
+    height:35px;
+    width: auto;
+}
+
+#footer .copy{
+    font-weight:300;
+    text-align: center;
+}
+
+#footer .copy a{
+    font-size:12px;
+}
+
+#header .navbar-brand{
+    color: #f3f6f4;
+    text-transform: uppercase;
+    font-family: 'Oleo Script', cursive;
+}
+.full-screen{
+    min-height: 1000px;
+}
+
+.full-screen .intro{
+    padding-top: 40px;
+    text-align: center;
+}
+.intro h1{
+    font-size: 25px;
+    font-family: 'Tinos', serif;
+}
+
+.intro .largerFont{
+    font-size: 48px;
+    font-weight: 900;
+    text-shadow: 2px 2px #d6d3d3;
+}
+.intro h2{
+    font-size: 16px;
+    font-family: 'Tinos', serif;
+    color: #bd5454;
+}
+.full-screen .myphoto{
+    text-align: center;
+    padding-top: 6px;
+    /* padding-left: 45px;
+    padding-right: 45px; */
+}
+.myphoto img{
+    height:auto;
+    width:85%;
+}
+
+.intro h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width:80%;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+}
+
+
+.skip a{
+    background: white;
+    left: 0;
+    padding: 6px;
+    -webkit-transition: top 1s ease-out;
+    transition: top 1s ease-out;
+    z-index: 1;
+    position: absolute;
+    top: -40px;
+    color: black;
+    background-color: #eeeeee;
+}
+  
+.skip a:focus{
+    position: absolute;
+    top: 0px;
+    color: #bd5454;
+    background-color: #eeeeee;
+}
+
+.page-indicator{
+    text-align: center;
+    justify-content: center;
+    height: 50px;
+}
+/* .page-indicator h1{
+    font-size: 25px;
+    font-family: 'Sacramento', cursive;
+    padding-top: 18px;
+} */
+.section-header{
+    text-align: center;
+    
+}
+.section-header h1{
+    padding-top: 5px;
+    font-size: 24px;
+}
+
+#Introduction h2{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.section{
+    
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.section-content{
+    padding-top: 20px;
+}
+.section-content h2{
+    font-weight: 300;
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+.section-content h3{
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+h3.lighter{
+    /*font-style: italic;*/
+    font-size: smaller;
+    color:#5c4597;
+}
+.section:nth-child(even){
+    background-color: #eeeeee;
+}
+
+
+.subcontent{
+    display: flex;
+}
+.subcontent-left{
+    width:70%
+}
+.subcontent-right{
+    width: 30%;
+    text-align: right;
+}
+.subcontent-right h2{
+    font-size: 12px;
+}
+
+/* about->courses */
+
+
+
+.subcontent-aslist ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.subcontent-aslist ul li{
+    flex-direction: row;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+
+.skill-list li{
+    width: 25%;
+}
+
+.subcontent-flexcontaniner-course {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: 48% 48%;
+    
+    color: #444;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.box {
+    background-color:#fff;
+    border: 1px solid #7565a7;
+    color: #7565a7;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+
+}
+/* .a {
+    grid-column: 1/2; 
+    grid-row: 1/2;
+}
+.b {
+    grid-column: 2/-1; 
+    grid-row: 1/2;
+}
+.c {
+    grid-column: 1/2; 
+    grid-row: 2/3;
+}
+.d {
+    grid-column: 2/-1; 
+    grid-row: 2/3;
+}
+
+.k{
+    grid-column: 1/-1; 
+    grid-row: 6/7;
+}
+ */
+
+
+.subcontent-flexcontaniner-skill{
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(3, 30%);
+    
+    color: #444;
+    justify-content: space-around;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.s1{
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(4, auto);
+}
+.s2{
+    padding-top: 8px;
+    grid-template-columns: repeat(2, 45%);
+}
+
+
+.s3{
+    padding-top: 8px;
+    grid-template-columns: repeat(2, 45%);
+}
+/* 
+.s1 .a2{
+    grid-column: 1/2; 
+    grid-row: 1/2;
+}
+.s1 .b2{
+    grid-column: 2/3; 
+    grid-row: 1/2;
+}
+.s1 .c2{
+    grid-column: 3/-1; 
+    grid-row: 1/2;
+}
+
+
+ */
+#anotherMe h2{
+    font-size: 20px;
+    text-align: center;
+}
+
+.gallery h1{
+    /*padding-top: 20px;*/
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Tinos', serif;
+    font-weight: bolder;
+
+
+}
+
+.gallery h2{
+    padding-top: 10px;
+    font-size: 15px;
+    font-family: 'Tinos', serif;
+    text-align: center;
+    color:#5b5b5b;
+}
+
+.gallery-baking{
+    
+    display: grid;
+    width: 90vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(5, 250px);
+    margin: auto;
+    margin-bottom: 50px;
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height:100%;
+}
+
+.gallery-baking > div{
+    overflow: hidden;
+}
+
+/* .gallery-baking .i1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.gallery-baking .i2{
+    grid-column: 2/-1;
+    grid-row: 1/2;
+}
+.gallery-baking .i3{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+.gallery-baking .i4{
+    grid-column: 2/-1;
+    grid-row: 2/3;
+}
+.gallery-baking .i5{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.gallery-baking .i6{
+    grid-column: 2/-1;
+    grid-row: 3/4;
+}
+.gallery-baking .i7{
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+.gallery-baking .i8{
+    grid-column: 2/-1;
+    grid-row: 4/5;
+} */
+.gallery-baking .i9{
+    grid-column: 1/-1;
+    grid-row: 5/-1;
+}
+
+.gallery-drawing{
+    
+    display: grid;
+    width: 90vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 250px);
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.gallery-drawing > div{
+    overflow: hidden;
+}
+.heading>h1{
+    margin: 25px;
+}
+.section .gallery {
+    padding-top: 0px;
+}
+#anotherMe h2 a{
+    color:#bd5454;
+}
+
+#currentPlanning h2{
+    font-size: 15px;
+}
+
+@media screen and (min-width: 640px){
+
+header button{
+    display: none;
+}
+
+main .myphoto img{
+    width: 35%;
+    height: auto;
+}
+
+.subcontent-flexcontaniner-course{  
+    grid-template-columns: repeat(4, 22%);
+}
+
+.subcontent-flexcontaniner-skill{
+    grid-template-columns: repeat(4, 22%);
+}
+
+.section-header h1{
+    font-size: 30px;
+}
+
+#Introduction h2{
+    font-size: 18px;
+}
+
+
+.section-content h3{
+    font-weight: 300;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+h3.lighter{
+    /*font-style: italic;*/
+    font-size:16px;
+    color:#5c4597;
+}
+
+.gallery-baking{
+    
+    display: grid;
+    width: 90vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(3, 300px);
+    margin: auto;
+    margin-bottom: 50px;
+}
+.gallery-baking .i9{
+    grid-column: 3/-1;
+    grid-row: 3/-1;
+}
+
+.gallery-drawing{
+    display: grid;
+    width: 90vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(2, 400px);
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+.gallery h1{
+    font-size: 28px;
+}
+
+.gallery h2{
+    font-size: 18px;
+    
+}
+
+#currentPlanning h2{
+    font-size: 16px;
+}
+}
